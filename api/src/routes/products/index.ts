@@ -5,13 +5,13 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
-} from './productsController';
-import { validateData } from '../../../src/middlewares/validationMiddleware';
+} from './productsController.js';
+import { validateData } from '../../../src/middlewares/validationMiddleware.js';
 import {
   createProductSchema,
   updateProductSchema,
-} from '../../../src/db/productsSchema';
-import { verifyToken, verifySeller } from '../../middlewares/authMiddleware';
+} from '../../../src/db/productsSchema.js';
+import { verifyToken, verifySeller } from '../../middlewares/authMiddleware.js';
 
 // products endpoint
 const router = Router();
