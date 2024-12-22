@@ -8,6 +8,13 @@
       "when": 1733583167822,
       "tag": "0000_heavy_logan",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1734265328034,
+      "tag": "0001_zippy_lord_hawal",
+      "breakpoints": true
     }
   ]
 }

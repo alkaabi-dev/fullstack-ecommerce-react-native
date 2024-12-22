@@ -7,6 +7,7 @@ declare global {
     export interface Request {
       userId?: Number;
       cleanBody: Any;
+      role: String;
     }
   }
 }
